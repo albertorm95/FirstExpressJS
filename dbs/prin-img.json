@@ -1,0 +1,5 @@
+{
+	"imagenes" : [{
+		"imgs" : ["static/images/portada/portada1.jpg","static/images/portada/portada2.jpg","static/images/portada/portada3.jpg","static/images/portada/portada4.jpg","static/images/portada/portada5.jpg","static/images/portada/portada6.jpg","static/images/portada/portada7.jpg"]
+	}]
+}

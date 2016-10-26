@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JUNGLA EXPERIENCE</title>
+    <link rel="shortcut icon" type="image/ico" href="static/images/favicon.ico" />
+    <!--bootstrap-->
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<!--agency-->
+    <link rel="stylesheet" type="text/css" href="static/css/agency.min.css">
+    <!--flexslider-->
+    <link rel="stylesheet" type="text/css" href="static/css/flexslider.min.css">
+    <!--fontawsome-->
+    <link rel="stylesheet" type="text/css" href="static/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand-wrap">
+                    <img src="static/images/logo.png" alt="" style="width:250px;margin-left:10px">
+                </div>
+                <!--<a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>-->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Excursiones</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#grupos">Grupos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#reserva">Reserva Tú Aventura</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#nosotros">¿Por qué nosotros?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="flexslider">
+            <ul class="slides">
+            {{#each imagenes}}
+            	{{#each imgs as |img|}}
+                <li>
+                    <img src="{{img}}" />
+                </li>
+                {{/each}}
+            {{/each}}
+            </ul>
+        </div>
+    </header>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Excursiones</h2>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                {{#each excursiones}}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#{{id}}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{portada-img}}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{titulo}}</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
+    <!-- reservas Section -->
+    <section id="reserva">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="reserva-heading">Pasos</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-hand-o-up fa-stack-1x fa-inverse"></i>
+						</span>
+                    <h3 class="reserva-heading">Paso 1</h3>
+                    <p style="font-size:20px">Elige tu excursión favorita.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-calendar-check-o fa-stack-1x fa-inverse"></i>
+						</span>
+                    <h3 class="reserva-heading">Paso 2</h3>
+                    <p style="font-size:20px">Pregúntanos por disponibilidad y fecha.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-money fa-stack-1x fa-inverse"></i>
+						</span>
+                    <h3 class="reserva-heading">Paso 3</h3>
+                    <p style="font-size:20px">Realiza tu pago y envíanos tu comprobante con tus datos.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
+						</span>
+                    <h3 class="reserva-heading">Paso 4</h3>
+                    <p style="font-size:20px">Listo, tú reservación esta hecha! espera nuestra confirmación y el itinerario detallado en tu correo electrónico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contacto</h2>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Reservaciones y Whatsapp</h3>
+                    <h4 style="color:white"><i class="fa fa-phone"></i> 99 31 21 07 27</h4>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Redes Sociales</h3>
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/JunglaXP"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/JunglaExperience/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/junglaxp/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/user/JunglaXP"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Jungle Experience 2016</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    {{#each excursiones}}
+    <div class="portfolio-modal modal fade" id="{{id}}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>{{titulo}}</h2>
+                            <p class="item-intro text-muted">{{lugar}}</p>
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    {{#each img as |imgs|}}
+                                    <li>
+                                        <img src="{{imgs}}" />
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                            <p style="text-align:left">{{descripcion}}</p>
+                            <ul class="list-inline" style="font-size:17px">
+                                <li>Actividades: <b>{{actividades}}</b></li>
+                                {{{intensidad}}}
+                                {{{incluye}}}
+                                <li>Duración: <b>{{duracion}}</b></li>
+                                <li>Costo: <b>{{costo}}</b></li>
+                            </ul>
+                            <a href="{{itinerario}}" download>
+                                <button type="button" class="btn btn-second"><i class="fa fa-download"></i> Descargar Itinerario</button>
+                            </a>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    <!-- jQuery -->
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <!-- jquery easing -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- classie -->    
+    <script type="text/javascript" src="static/js/classie.js"></script>
+    <!-- animated header -->
+    <script type="text/javascript" src="static/js/cbpAnimatedHeader.js"></script>
+    <!-- agency -->
+    <script type="text/javascript" src="static/js/agency.js"></script>
+    <!-- slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!-- flexslider -->
+    <script type="text/javascript" src="static/js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.flexslider').flexslider({});
+        });
+    </script>
+</body>
+<!--360x566-->
+</html>

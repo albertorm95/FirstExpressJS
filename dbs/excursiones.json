@@ -1,0 +1,73 @@
+{
+	"ex": [{
+		"id": "portfolioModal3",
+		"titulo": "Espeleísmo en Kolem Cheñ",
+		"lugar": "Kolem Cheñ.",
+		"descripcion": "Con nuestro equipo especializado recorreremos un vertical sendero hasta llegar a la cima del cerro y justo encontrar la entrada a la única cueva de 3er nivel explorada en Tabasco; nos adentraremos en ella para conocer sus caprichosas formaciones y progresaremos a través de sus salas y galerías por medio del rappel, pasamanos y gateras, nos encontraremos en total obscuridad y por debajo de la tierra durante todo el recorrido.",
+		"actividades": "Espeleísmo, senderismo, rappel.",
+		"duracion": "10 hrs.",
+		"costo": "$980 Pesos x persona.",
+		"itinerario": "static/images/espeleismoKolemChen/IT-EKC.png",
+		"portada-img": "static/images/espeleismoKolemChen/mimg.jpg",
+		"img": ["static/images/espeleismoKolemChen/img2.jpg", "static/images/espeleismoKolemChen/img3.jpg", "static/images/espeleismoKolemChen/img4.jpg", "static/images/espeleismoKolemChen/img5.jpg"]
+	}, {
+		"id": "portfolioModal4",
+		"titulo": "Selva Lacandona Experience",
+		"lugar": "Selva Lacandona, ANP Montes Azules.",
+		"descripcion": "Estaremos inmersos en la mística Selva Lacandona, donde navegaremos el \"Río Lacanjá\" (clase III) famoso por su calor y sus impresionantes cascadas, haremos un hiking (senderismo) de aproximadamente de 1 hora y 30 minutos en medio de la selva para llegar a la \"Ciudad Perdida\" Zona Arqueológica Mayo que muy pocos afortunados conocen; tendremos la tarde/noche libre para disfrutar de la fogata con los amigos. Al día siguiente después del desayuno iremos a la Zona Arqueologías de Bonampak donde apreciaremos sus murales, conocidos y estudiados en todo el mundo. Después del recorrido regresaremos a Villahermosa con opción de comer en Palenque.",
+		"actividades": "Rafting (clase III), senderismo, recorridos en Zonas Arqueologías.",
+		"duracion": "2 dias.",
+		"costo": "$2,750 Pesos x persona. (TODO INCLUIDO)",
+		"itinerario": "static/images/lacandonaExperience/IT-LE.png",
+		"portada-img": "static/images/lacandonaExperience/mimg.jpg",
+		"img": ["static/images/lacandonaExperience/img2.jpg", "static/images/lacandonaExperience/img3.jpg", "static/images/lacandonaExperience/img4.jpg", "static/images/lacandonaExperience/img5.jpg", "static/images/lacandonaExperience/img6.jpg"]
+	}, {
+		"id": "portfolioModal5",
+		"titulo": "Espeleísmo en la Cueva de las Sardinas Ciegas",
+		"lugar": "Parque Estatal de la sierra.",
+		"descripcion": "ealizaremos un rappel de entrada a la cueva de 35 mts. Una vez en su interior podremos apreciar su inhóspito ecosistema, recorrerla y conocer a las famosas sardinas, es una cueva única en el mundo y ha sido objeto de investigación científica; al salir de la cueva conoceremos las cascadas de Villa Luz en las que nos daremos un chapuzón y haremos rappel y tirolesa sobre ellas.",
+		"actividades": "Espeleísmo, senderismo, rappel, tirolesa.",
+		"duracion": "10 hrs.",
+		"costo": "$980 Pesos x persona.",
+		"itinerario": "static/images/espeleismoSardinasCiegas/IT-CSC-CVL.png",
+		"portada-img": "static/images/espeleismoSardinasCiegas/mimg.jpg",
+		"img": ["static/images/espeleismoSardinasCiegas/img2.jpg", "static/images/espeleismoSardinasCiegas/img3.jpg", "static/images/espeleismoSardinasCiegas/img4.jpg", "static/images/espeleismoSardinasCiegas/img5.jpg", "static/images/espeleismoSardinasCiegas/img6.jpg", "static/images/espeleismoSardinasCiegas/img8.jpg", "static/images/espeleismoSardinasCiegas/img9.jpg"]
+	}, {
+		"id": "portfolioModal6",
+		"titulo": "Trail Running Agua Escondida",
+		"lugar": "Parque Estatal de la Sierra.",
+		"descripcion": "Ready to hit the trail! con tennis y cámaras para documentas los paisajes de este majestuoso sendero, que nos llevara a recorrer comunidades olvidadas inmersas en la jungla de Tabasco; 15 kms de pura emoción, para cuando pienses que nada puede mejorar llegaremos al ojo de agua de San Manuel.",
+		"actividades": "Trail running, obeservación de flora y fauna.",
+		"duracion": "6 hrs.",
+		"costo": "$500 Pesos x persona.",
+		"itinerario": "static/images/trailrunningAguaEscondida/IT-TR.png",
+		"portada-img": "static/images/trailrunningAguaEscondida/mimg.jpg",
+		"img": ["static/images/trailrunningAguaEscondida/img2.jpg", "static/images/trailrunningAguaEscondida/img3.jpg", "static/images/trailrunningAguaEscondida/img4.jpg", "static/images/trailrunningAguaEscondida/img5.jpg", "static/images/trailrunningAguaEscondida/img6.jpg", "static/images/trailrunningAguaEscondida/img7.jpg"]
+	}, {
+		"id": "portfolioModal1",
+		"titulo": "Cañonismo en Agua Selva 1 Día",
+		"lugar": "Reserva Ecológica \"Agua Selva\".",
+		"descripcion": "Inmersa Entre Montañas y En La Convergencia De Tabasco, Chiapas y Veracruz Se Encuentra “Agua Selva” Un Extraordinario Lugar Dotado De Interminables Cascadas, Gigantescos Cañones y Una Vasta Vegetación. El Cañón Ukelele Espera Nuestra Llegada Para Comenzar Una De Las Mejores Experiencias De Vida, Progresaremos En El Cañón A Través De Arroyos, Pozas De Agua, Toboganes y Rappeles De Mas De 30 M. Este Cañón Es Uno De Los Más Escénicos de la Región, Una Aventura Que No Te Puedes Perder!",
+		"actividades": "Observación De Flora Y Fauna, Cañonismo, Senderismo, Salto y Nado en Pozas, Rappel en Cascadas, Parrillada y Fogata.",
+		"duracion": "1 Día.",
+		"costo": "$1,300 Pesos x persona.",
+		"intensidad":"<li>Intensidad: <b>Media (No Es Necesario Tener Experiencia; Nuestros Guías Te Acompañan y Apoyan En Todo Momento).</b></li>",
+		"incluye":"<li>Incluye: <b>Transportación, Guías Especializados, Equipo Certificado, Entradas-Permisos, Fotografías y Video.</b></li>",
+		"itinerario": "static/images/canonismoAguaSelva/IT-AS1.png",
+		"portada-img": "static/images/canonismoAguaSelva/mimg1.png",
+		"img": ["static/images/canonismoAguaSelva/img1.jpg", "static/images/canonismoAguaSelva/img2.jpg", "static/images/canonismoAguaSelva/img3.jpg", "static/images/canonismoAguaSelva/img4.jpg"]
+	}, {
+		"id": "portfolioModal2",
+		"titulo": "Cañonismo en Agua Selva 2 Días",
+		"lugar": "Reserva Ecológica \"Agua Selva\".",
+		"descripcion": "Inmersa Entre Montañas y En La Convergencia De Tabasco, Chiapas y Veracruz Se Encuentra “Agua Selva” Un Extraordinario Lugar Dotado De Interminables Cascadas, Gigantescos Cañones y Una Vasta Vegetación. El Cañón Ukelele Espera Nuestra Llegada Para Comenzar Una De Las Mejores Experiencias De Vida, Progresaremos En El Cañón A Través De Arroyos, Pozas De Agua, Toboganes y Rappeles De Mas De 30 M. Este Cañón Es Uno De Los Más Escénicos de la Región, Una Aventura Que No Te Puedes Perder!",
+		"actividades": "Observación De Flora Y Fauna, Cañonismo, Senderismo, Salto y Nado en Pozas, Rappel en Cascadas, Parrillada y Fogata.",
+		"duracion": "2 Días.",
+		"costo": "$1,980 Pesos x persona.",
+		"intensidad":"<li>Intensidad: <b>Media (No Es Necesario Tener Experiencia; Nuestros Guías Te Acompañan y Apoyan En Todo Momento).</b></li>",
+		"incluye":"<li>Incluye: <b>Transportación, Guías Especializados, Equipo Certificado, Alojamiento Tipo Hostal, Comidas (4), Entradas-Permisos, Fotografías.</b></li>",
+		"itinerario": "static/images/canonismoAguaSelva/IT-AS2.png",
+		"portada-img": "static/images/canonismoAguaSelva/mimg2.png",
+		"img": ["static/images/canonismoAguaSelva/img1.jpg", "static/images/canonismoAguaSelva/img2.jpg", "static/images/canonismoAguaSelva/img3.jpg", "static/images/canonismoAguaSelva/img4.jpg"]
+	}]
+}
